@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/myImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/myImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/myImageView"
+                android:layout_alignTop="@+id/myImageView"
+                android:layout_alignRight="@+id/myImageView"
+                android:layout_alignBottom="@+id/myImageView"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:text="Lv. 50"
+                android:textStyle="bold"
+                android:textColor="#5b5b5b" />
+        </RelativeLayout>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/hang"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_btn"
+            android:layout_marginTop="15dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:onClick="PlayClick"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/practice_btn"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:onClick="CreditsClick"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/off_btn"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:onClick="ExitClick"/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

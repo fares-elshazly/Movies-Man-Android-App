@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "166118979083",
+    "firebase_url": "https://movies-man.firebaseio.com",
+    "project_id": "movies-man",
+    "storage_bucket": "movies-man.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166118979083:android:233552f1726b6773",
+        "android_client_info": {
+          "package_name": "fareselshazly.moviesman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166118979083-27ii6vm8hg12ml7jmo9m7l6cu6ih9g1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fareselshazly.moviesman",
+            "certificate_hash": "70f209e81608f92648dd60c7406b5184e90dfc3d"
+          }
+        },
+        {
+          "client_id": "166118979083-ud3dll8n3tpic4kie172r184l47iqtct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1F6EMCmV-BjGPNEDAYrDUCqG3fkiS5bg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166118979083-ud3dll8n3tpic4kie172r184l47iqtct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
